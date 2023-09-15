@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Input Example</title>
+</head>
+<body>
+    <form action="/submit" method="post" id="urlForm">
+        <label for="urlInput">Enter a URL:</label>
+        <input type="text" id="urlInput" name="url" placeholder="https://www.example.com">
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- <p id="result"></p>
+
+    <script>
+        // Get references to HTML elements
+        const urlForm = document.getElementById('urlForm');
+        const urlInput = document.getElementById('urlInput');
+        const result = document.getElementById('result');
+
+        // Handle form submission
+        urlForm.addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Get the URL entered by the user
+            const enteredUrl = urlInput.value;
+
+            // Display the entered URL
+            result.textContent = `You entered: ${enteredUrl}`;
+        });
+    </script> -->
+</body>
+</html>

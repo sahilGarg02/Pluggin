@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Data</title>
+</head>
+<body>
+    <h1>Extracted Paragraphs:</h1>
+    <ul>
+        <% for (let paragraph of data.paragraphs) { %>
+            <li><%= paragraph %></li>
+        <% } %>
+    </ul>
+
+    <h1>Extracted Links:</h1>
+    <ul>
+        <% for (let link of data.links) { %>
+            <li><a href="<%= link %>"><%= link %></a></li>
+        <% } %>
+    </ul>
+</body>
+</html>
+
+
+
+
+
+
